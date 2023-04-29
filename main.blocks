@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="kC[=Zy6xp8:}qs=RLpKc" x="0" y="0"><statement name="HANDLER"><block type="basic_show_icon" id="i6#/+JJbV/hG=aTF}mUu"><field name="i">IconNames.Chessboard</field><next><block type="device_show_leds" id="NI{E`6y4khrTqRFOCUHF"><field name="LEDS">`
+        . . # . . 
+        # . # . # 
+        . # # # . 
+        . # . # . 
+        # # . # #
+        `</field><next><block type="device_pause" id="O1O3fmO#5/;|q#t_cYX_"><value name="pause"><shadow type="timePicker" id="-#T1)JwgL,0yefWS#)Qc"><field name="ms">2000</field></shadow></value><next><block type="basic_show_icon" id="?8bNoXL^)/P4LaArIba8"><field name="i">IconNames.Diamond</field><next><block type="device_print_message" id="G2ukEz=z1R~X.$#x)].A"><value name="text"><shadow type="text" id="LAqIftmB#b*M8uT_W:ad"><field name="TEXT">friends</field></shadow></value></block></next></block></next></block></next></block></next></block></statement></block><block type="playMelody" id="};@4:FJP(cGPV7m2xsEK" disabled="true" x="339" y="3"><value name="melody"><shadow type="melody_editor" id="w(),]yz5+b|{m87@TFuz" disabled="true"><field name="melody">"C D G B C F G C5 "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="L1o|~xv!1HvGxxRT-970" disabled="true"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">500</field></shadow></value></block><block type="device_forever" id="-so51#CRCNQ{^;voT`9{" x="231" y="163"></block></xml>
